@@ -8,11 +8,14 @@
 </head>
 <body class="bg-gray-100 text-gray-900">
 
-    <!-- Navbar -->
+    <!-- Barra de navegación entre la tabla de estudiantes y la tabla de carreras -->
     <nav class="bg-blue-800 text-white px-6 py-4 flex justify-between items-center">
+        <!-- Nombre del sitio -->
         <div class="text-2xl font-bold">
             Sistema de registro estudiantil
         </div>
+
+        <!-- Links para cambiar de vista entre el index de estudiantes y el index de carreras -->
         <div class="space-x-4 mr-10 text-lg">
             <a href="{{ route('index') }}" class="hover:underline">Estudiantes</a>
             <a href="{{ route('carreras.index') }}" class="hover:underline">Carreras</a>
