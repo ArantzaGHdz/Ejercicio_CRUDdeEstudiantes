@@ -4,6 +4,14 @@ En este proyecto se desarrollara un CRUD completo (Create, Read, Update, Delete)
 
 El objetivo es poner en práctica los conocimientos sobre rutas, controladores, migraciones, modelos, relaciones y vistas, aplicando la estructura MVC de Laravel.
 
+# Estructura del CRUD
+
+En la página principal esta una tabla que contiene todos los datos de los regitros de los estudiantes: Nombre, Correo electrónico, Semestre, Carrera y un apartado de acciones. En la parte de arriba hay un boton que lleva a una vista para crear un nuevo registro de estudiante con cada campo necesario, en el apartado de carrera se selecciona una de la lista de las que ya esten creadas.
+
+Dentro de la tabla, en la columna de acciones, hay dos botones: uno para editar el registro de estudiante que te lleva a un form idéntico al de creación pero con todos los campos ya rellenados con la información del estudiante seleccionado y uno para eliminar completamente el registro.
+
+Para el caso de carrera es igual, se puede cambiar a su index por medio de la barra de navegación, solo que esta vez solo es una tabla con columnas como: Nombre, Descripción y Acciones. Funciona y tiene el diseño exactamente igual que el de estudiantes.
+
 ---
 
 ## 📖 Descripción general
@@ -16,7 +24,7 @@ El objetivo es poner en práctica los conocimientos sobre rutas, controladores, 
 
 ### 🔗 Enlaces del proyecto
 
-- **Repositorio en GitHub:** [Link del repositorio](https://github.com/ArantzaGHdz/Ejercicio_Loopstudios-Landing-Page)
+- **Repositorio en GitHub:** [Link del repositorio](https://github.com/ArantzaGHdz/Ejercicio_CRUDdeEstudiantes)
 - **Sitio desplegado (opcional):** [Link del deploy](https://ejercicio-loopstudios-landing-page.vercel.app)
 
 ---
